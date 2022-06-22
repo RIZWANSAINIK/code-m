@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code_march</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="IMAGE/codemarch_logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <li><a href="http://127.0.0.1:5500/index.html">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <!-- End of NAV--- -->
+
+
+       <h1>About Us</h1>
+
+    </section>
+
+<!----------about us content------------>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's most popular young web-devops</h1>
+            <p>We help developers to understand JavaScript & React in depth <br> • Web development & design resources •</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <!-- 2nd part of about us -->
+        <div class="about-col">
+            <img src="IMAGE/meeting.jpg" alt="">
+        </div>
+        
+    </div>
+</section>
+
+
+
+<!------------------------FOOTER------------------->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, rikki.</p>
+    <!-- **************** -->
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+          
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://twitter.com/CodeMarch"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://codemarch.co/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.instagram.com/codemarch.co/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(50, 245, 115, 0.705);">
+          © 2022 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/">codemarch.co</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</section>
+
+
+
+
+<!-- ------------SCRIPT FOR TOGGLE MENU-------------- -->
+    <script>
+        var navLinks =document.getElementById("nav-links");
+        
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
